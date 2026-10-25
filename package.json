@@ -1,23 +1,13 @@
 {
   "name": "backend-game-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Escape Room API",
+  "main": "server/elysia.ts",
   "scripts": {
     "dev": "tsx watch server/elysia.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Natka2091/backend-game-progect.git"
-  },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Natka2091/backend-game-progect/issues"
-  },
-  "homepage": "https://github.com/Natka2091/backend-game-progect#readme",
   "dependencies": {
     "@elysiajs/node": "^1.4.5",
     "elysia": "^1.4.30"
