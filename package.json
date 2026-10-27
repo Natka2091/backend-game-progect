@@ -10,7 +10,8 @@
   "type": "module",
   "dependencies": {
     "@elysiajs/node": "^1.4.5",
-    "elysia": "^1.4.30"
+    "elysia": "^1.4.30",
+    "simple-json-db": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
