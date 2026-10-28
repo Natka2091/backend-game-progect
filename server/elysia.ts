@@ -1,8 +1,8 @@
 import { Elysia } from 'elysia';
 import { node } from '@elysiajs/node';
 
-import { questController } from './quest.controller.js';
-import { bookingController } from './booking.controller.js';
+import { questController } from './controllers/quest.controller.js';
+import { bookingController } from './controllers/booking.controller.js';
 
 const PORT = 1000;
 
