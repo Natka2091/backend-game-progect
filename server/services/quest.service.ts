@@ -7,12 +7,10 @@ import { Quest } from "../db/initial-quests";
     },
 
     getQuestBySlug(slug: string): Quest | null {
-        const quest = questDataService.getQuestBySlug(slug);
+       return questDataService.getQuestBySlug(slug) ?? null;
+    },
 
-        if (!quest) {
-            return null;
-        }
-
-        return quest;
+    getQuestById(id: string): Quest | null {
+        return questDataService.getQuestById(id) ?? null;
     }
  };
