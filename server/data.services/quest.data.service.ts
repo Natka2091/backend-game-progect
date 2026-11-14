@@ -7,7 +7,7 @@ export const questDataService = {
     return db.get('quests') || [];
   },
 
-  getQuestById(id: string): Quest | undefined {
+  getQuestById(id: number): Quest | undefined {
     const quests = this.getAllQuests();
     return quests.find((quest) => quest.id === id);
   },

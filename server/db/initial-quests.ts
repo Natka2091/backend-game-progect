@@ -1,5 +1,5 @@
 export type Quest = {
-    id: string;
+    id: number;
     slug: string;
     title: string;
     image: string;
@@ -14,7 +14,7 @@ export type Quest = {
 
 export const initialQuests: Quest[] = [
     {
-        id: 'q1',
+        id: 1,
         title: 'Crypt',
         slug: 'crypt',
         image: 'crypt.png',
@@ -28,7 +28,7 @@ export const initialQuests: Quest[] = [
             'In a dimly lit room, several strangers regain consciousness. No one remembers what happened last night. Their hands and feet are tied, but one of you has managed to break free. A terrifying timer hangs on the wall, counting down from 60 minutes. Will you be able to handle this stressful situation, help the others, figure out what happened, and escape the room?',
     },
     {
-        id: 'q2',
+        id: 2,
         title: 'Maniac',
         slug: 'maniac', 
         image: 'maniac.png',
@@ -43,7 +43,7 @@ export const initialQuests: Quest[] = [
     },
 
     {
-        id: 'q3',
+        id: 3,
         title: 'Ritual',
         slug: 'ritual',
         image: 'ritual.png',
@@ -58,7 +58,7 @@ export const initialQuests: Quest[] = [
     },
 
     {
-        id: 'q4',
+        id: 4,
         title: 'Mars-2056',
         slug: 'mars-2056',
         image: 'mars-2056.png',
@@ -73,7 +73,7 @@ export const initialQuests: Quest[] = [
         },
 
     {
-        id: 'q5',
+        id: 5,
         title: 'The Secrets of the Old Mansion',
         slug: 'the-secrets-of-the-old-mansion',
         image: 'old-estate-secrets.png',
@@ -88,7 +88,7 @@ export const initialQuests: Quest[] = [
     },
 
     {
-        id: 'q6',
+        id: 6,
         title: 'The Cabin in the Woods',
         slug: 'the-cabin-in-the-woods',
         image: 'hut-in-the-forest.png',
@@ -103,7 +103,7 @@ export const initialQuests: Quest[] = [
         },
 
     {
-        id: 'q7',
+        id: 7,
         title: 'Fatal Experiment',
         slug: 'fatal-experiment',
         image: 'fatal-experiment.png',
@@ -118,7 +118,7 @@ export const initialQuests: Quest[] = [
     },
 
     {
-        id: 'q8',
+        id: 8,
         slug: 'metro-2033',
         title: 'Metro 2033',
         image: 'metro-2033.png',
@@ -133,7 +133,7 @@ export const initialQuests: Quest[] = [
         },
 
     {
-        id: 'q9',
+        id: 9,
         slug: 'the-old-attic',
         title: 'The Old Attic',
         image: 'old-attic.png',

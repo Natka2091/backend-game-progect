@@ -1,20 +1,19 @@
 import { Elysia, t } from 'elysia';
-import { bookingService } from '../services/booking.service';
+import { orderService } from '../services/order.service';
 
-export const bookingController = new Elysia({prefix: '/booking'})
+export const orderController = new Elysia({prefix: '/order'})
 
 .post('/', ({body, set}) => {
     try {
-        const result = bookingService.createBooking(body);
+        const result = orderService.createOrder(body);
 
         set.status = 201;
         return result;
     } catch (error: any) {
         set.status = 400;
         return {
-            success: false,
             error: error.message || 'Something went wrong'
-        };
+        }; 
     }
 }, {
     body: t.Object({
